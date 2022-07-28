@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
@@ -9,27 +8,15 @@
         <link rel="shortcut icon" type="image/png" href="img/fav_mini.png"/>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:500" rel="stylesheet">
-        
-    </head>
-    
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:500" rel="stylesheet">      
+    </head> 
     <body>
-
-        
-
-		<header>
-			
+        <header>
 			<div class="main-header large-12 columns no-padding">
-
-				<div class="global-page-container">
+                <div class="global-page-container">
 				</div>
-					
 		</header>
-
-		<div class="ghost-element">
-		</div>
-
-
+        <div class="ghost-element"></div>
         <div class="refresh-loader">
             <div class="table">
                 <div class="table-cell">
@@ -53,42 +40,29 @@
                 </div>
             </div>
         </div>
-                
-
-    
         <main>
-
-
             <div class="global-page-container">
-
                 <div class="price-calculator small-11 large-10 columns small-centered">
-                    
                     <h1>Make an online quotation</h1>
-
                     <div class="filters small-12 columns">
-                            
-                        <div class="single-filter">
+                            <div class="single-filter">
                             <span class="filter-label">Quantity</span>
                             <input type="number" id="quantity" value="10">
-                        </div>
-
-                        <div class="single-filter">
+                    </div>
+                    <div class="single-filter">
                             <span class="filter-label">Color</span>
                             <div id="color" class="option-filter">
                                 <div id="white" class="color-option option-button">White</div>
                                 <div id="colored" class="color-option option-button selected">Blue</div>
                             </div>
-                        </div>
-
-
-                        <div class="single-filter">
+                    </div>
+                    <div class="single-filter">
                             <span class="filter-label">Type</span>
                             <div id="quality" class="option-filter">
                                 <div id="brandNew" class="quality-option option-button selected">Brand New</div>
                                 <div id="refurbished" class="quality-option option-button">Refurbished</div>
                             </div>
                         </div>
-
                         <div class="single-filter">
                             <span class="filter-label">Style</span>
                             <select id="style">
@@ -97,49 +71,32 @@
                             </select>
                         </div>
                         <p><i>*Please select Style after selecting Color.</i></p>
-
                     </div>
-
                     <div class="results small-12 columns">
                         <div class="product-picture small-12 medium-5 columns">
                             <div class="picture-area">
                                 <img id="photo-product" src="img/blank.png" alt="short">
                             </div>
                         </div>
-
                         <div class="product-description small-12 medium-7 columns">
                             <h2>Order details</h2>
-
                             <p>Product: <span id="result-product">IPhone 12 Pro Max</span> </p>
                             <p>Style: <span id="result-style"></span> </p>
                             <p>Type: <span id="result-quality"></span> </p>
                             <p>Color: <span id="result-color"></span> </p>
                             <p>Quantity: <span id="result-quantity"></span> </p>
-                            
                             <p>Total: </p>
                             <div id="price">US$<span id="total-price"></span></div>
-
                             <div id="complete-order">Complete order</div>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
-            
-
-        </main>
-
-
-    
-        
+        </main> 
         <script src="js/scripts.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
-       
         <script>
             $(document).foundation();
         </script>
     </body>
-
 </html>

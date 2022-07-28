@@ -1,7 +1,5 @@
-
 var products = {
     'white': {
-        
         'plain': {
             'unit_price': 129900,
             'photo': 'v-white.png' 
@@ -11,7 +9,6 @@ var products = {
             'photo': 'v-white-personalized.jpg' 
         }
     },
-    
     'colored': {
         'plain': {
             'unit_price': 129900,
@@ -24,7 +21,6 @@ var products = {
     }
 }
 
-
 // Search params
 
 var search_params = {
@@ -33,9 +29,6 @@ var search_params = {
     "quality": "",
     "style": "",
 }
-
-
-
 
 // Solution:
 
@@ -117,7 +110,7 @@ $(function(){
 
    
 });
- // Additional pricing rules:
+// Additional pricing rules:
 
 // 1. The prices above are for Basic quality (q150). 
 // The high quality shirt (190g/m2) has a 12% increase in the unit price.
