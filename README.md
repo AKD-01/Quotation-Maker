@@ -9,7 +9,7 @@ They can also choose if they want brand new or refurbished.
 Output:
 ![image](https://user-images.githubusercontent.com/83454075/181444455-2c214288-d4ec-48ee-afd2-079a06aacf58.png)
 
-If in the same input, if we just change the style from "textured" to "plain". Then output:
+If in the same input, if we just change the style from "textured" to "plain". Then Output:
 ![image](https://user-images.githubusercontent.com/83454075/181444860-62a23269-7948-48e8-bdc8-22bb50855932.png)
 
 2)For the color - WHITE:
@@ -17,5 +17,11 @@ If in the same input, if we just change the style from "textured" to "plain". Th
 Output:
 ![image](https://user-images.githubusercontent.com/83454075/181445295-111cd798-fba5-4420-947d-6db086913905.png)
 
-If in the same input, if we just change the style from "textured" to "plain". Then output:
+If in the same input, if we just change the style from "textured" to "plain". Then Output:
 ![image](https://user-images.githubusercontent.com/83454075/181445430-c6bafa79-1587-40bd-8106-a004e9575b12.png)
+
+3)For the different quantities - OUTPUT:
+![image](https://user-images.githubusercontent.com/83454075/181445954-17549373-45a0-425c-972c-fffd7678a245.png)
+
+![image](https://user-images.githubusercontent.com/83454075/181446738-07fa4f49-fc22-4511-ba0b-33ec6e449b41.png)
+
